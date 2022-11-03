@@ -1,0 +1,30 @@
+{
+    "embeddings": [
+        {
+            "tensorPath": "oss_data/artistnet_emb.bytes",
+            "tensorShape": [
+                10000,
+                256
+            ],
+            "metadataPath": "oss_data/artistnet_labels.tsv",
+            "tensorName": "ArtistNetwork"
+        },
+        {
+            "tensorPath": "oss_data/MNIST_tensor.bytes",
+            "tensorShape": [
+                10000,
+                128
+            ],
+            "metadataPath": "oss_data/MNIST_labels.tsv",
+            "tensorName": "MNIST2Vec",
+            "sprite": {
+                "imagePath": "oss_data/MNIST_sprites.png",
+                "singleImageDim": [
+                    28,
+                    28
+                ]
+            }
+        }
+    ],
+    "modelCheckpointPath": "Visual Vector Embedding"
+}
